@@ -20,26 +20,6 @@ This program is a simple Bank Queue Management System implemented using Python a
 - `time`: A built-in Python module for time-related functions.
 - `gtts`: Google Text-to-Speech, a Python library and CLI tool to interface with Google Text-to-Speech API.
 
-## Usage
-
-1. Run the program by executing the script. Make sure you have all the required dependencies installed.
-
-```bash
-python your_program_name.py
-```
-
-2. The graphical user interface (GUI) will appear, showing the available service desks and buttons for adding customers to the queues.
-
-3. Click the "Tambah Antrian Bisnis" button to add a business customer to the queue. Their queue number will be displayed in the "Nomor Selanjutnya" label.
-
-4. Click the "Tambah Antrian Personal" button to add a personal customer to the queue. The customer's queue number will be generated based on priority.
-
-5. Click the "Meja 1 Memanggil" button to call the next customer from the queue to Service Desk 1. The customer's queue number will be displayed in the "Meja 1" label, and a dynamic text-to-speech announcement will be played.
-
-6. Click the "Meja 2 Memanggil" button to call the next customer from the queue to Service Desk 2. The customer's queue number will be displayed in the "Meja 2" label, and a dynamic text-to-speech announcement will be played.
-
-7. The "Keluar" button can be clicked to exit the program.
-
 ## Note
 
 - The program uses Google Text-to-Speech to generate announcements. Please make sure you have an active internet connection to utilize this feature.
